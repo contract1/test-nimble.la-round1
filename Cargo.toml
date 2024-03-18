@@ -1,0 +1,23 @@
+[package]
+name = "technical-test-bittensor"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+std = { version = "0.2", features = ["full"] }
+proc-macro2 = "1.0"
+syn = "1.0"
+quote = "1.0"
+async-std = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+env_logger = "0.9"
+thiserror = "1.0"
+mockito = "0.27"
+async-std-test = "1.10.0"  # Aqui está a nova dependência adicionada
+rand = "0.8"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1.5"
+cargo-edit = "0.9"
+cargo-watch = "7.8"
+cargo-make = "0.34"
